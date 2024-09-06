@@ -22,6 +22,7 @@ $app->get('/', function (Request $request, Response $response){
     return $response;   
 });
 
+$app->get('/api/loan', LoanController::class . ':getLoans');
 $app->post('/api/loan', LoanController::class . ':applyLoan');
 
 $app->run();
