@@ -1,2 +1,13 @@
-{"name":"joko","ktp":"1111","loan_amount":"1000","loan_period":"12","loan_purpose":"vacation","date_of_birth":"06-06-1991","sex":"Male"}
-{"name":"nawar","ktp":"2222","loan_amount":"1000","loan_period":null,"loan_purpose":null,"date_of_birth":null,"sex":null}
+{"name":"test2","ktp":"22221","loan_amount":"1000","loan_period":"12","loan_purpose":"vacation","date_of_birth":"06-06-1991","sex":"Male"}
+{"name":"as","ktp":"22221","loan_amount":"1000","loan_period":"12","loan_purpose":"vacation","date_of_birth":"06-06-1991","sex":"male"}
+{"name":"John","ktp":"123456789012","loan_amount":"15000","loan_period":"12","loan_purpose":"unknown","date_of_birth":"06-06-1991","sex":"male"}
+{"name":"John","ktp":"123456789012","loan_amount":"15000","loan_period":"12","loan_purpose":"unknown","date_of_birth":"06-06-1991","sex":"male"}
+{"name":"John","ktp":"123456789012","loan_amount":"15000","loan_period":"12","loan_purpose":"unknown","date_of_birth":"06-06-1991","sex":"male"}
+{"name":"John","ktp":"123456789012","loan_amount":"15000","loan_period":"12","loan_purpose":"unknown","date_of_birth":"06-06-1991","sex":"male"}
+{"name":"Andik","ktp":"123456789012","loan_amount":"15000","loan_period":"12","loan_purpose":"unknown","date_of_birth":"06-06-1991","sex":"male"}
+{"name":"Andik","ktp":"123456789012","loan_amount":"15000","loan_period":"12","loan_purpose":"unknown","date_of_birth":"06-06-1991","sex":"male"}
+{"name":"Andik2","ktp":"123456789012","loan_amount":"15000","loan_period":"12","loan_purpose":"unknown","date_of_birth":"06-06-1991","sex":"male"}
+{"name":"Andik3","ktp":"123456789012","loan_amount":"15000","loan_period":"12","loan_purpose":"unknown","date_of_birth":"06-06-1991","sex":"male"}
+{"name":"Andik4","ktp":"123456789012","loan_amount":"150000","loan_period":"12","loan_purpose":"unknown","date_of_birth":"06-06-1991","sex":"male"}
+{"name":"Andik4","ktp":"123456789012","loan_amount":"150000","loan_period":"12","loan_purpose":"unknown","date_of_birth":"06-06-1991","sex":"male"}
+{"name":"Andik4","ktp":"123456789012","loan_amount":"150000","loan_period":"12","loan_purpose":"unknown","date_of_birth":"06-06-1991","sex":"male"}

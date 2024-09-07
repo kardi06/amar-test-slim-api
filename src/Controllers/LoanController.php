@@ -7,6 +7,7 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 use App\Models\Loan;
 use Respect\Validation\Exceptions\ValidationException;
 use App\Services\FileService;
+use App\Validators\LoanValidator;
 
 class LoanController {
     public function getLoans(Request $request, Response $response)
@@ -27,10 +28,17 @@ class LoanController {
     {
         $data = $request->getParsedBody();
         
+        $validator = new LoanValidator;
+        $errors = $validator->validate($data);
+
+        if (!empty($errors)) {
+            $response->getBody()->write(json_encode(['errors' => $errors]));
+            return $response->withHeader('Content-Type', 'application/json')->withStatus(400);
+        }
+
         try{
             $loan = new Loan($data);
             FileService::saveLoan($loan);
-
             $response->getBody()->write(json_encode(['message' => 'Aplikasi Loan telah disimpan']));
             return $response->withHeader('Content-Type', 'application/json')->withStatus(200);
         }catch (ValidationException $e) {
