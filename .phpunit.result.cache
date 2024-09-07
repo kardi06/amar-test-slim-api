@@ -1,0 +1,1 @@
+{"version":1,"defects":{"LoanControllerTest::testApplyLoanSuccess":7},"times":{"LoanControllerTest::testApplyLoanSuccess":0.034,"LoanControllerTest::testValidationError":0}}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PHPUnit tests">
+  <testsuite name="C:\xampp\htdocs\amar-test-slim-api\phpunit.xml" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.034814">
+    <testsuite name="Application Test Suite" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.034814">
+      <testsuite name="LoanControllerTest" file="C:\xampp\htdocs\amar-test-slim-api\tests\LoanControllerTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.034814">
+        <testcase name="testApplyLoanSuccess" file="C:\xampp\htdocs\amar-test-slim-api\tests\LoanControllerTest.php" line="10" class="LoanControllerTest" classname="LoanControllerTest" assertions="1" time="0.034361"/>
+        <testcase name="testValidationError" file="C:\xampp\htdocs\amar-test-slim-api\tests\LoanControllerTest.php" line="32" class="LoanControllerTest" classname="LoanControllerTest" assertions="1" time="0.000453"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -33,17 +33,19 @@ class LoanController {
 
         if (!empty($errors)) {
             $response->getBody()->write(json_encode(['errors' => $errors]));
-            return $response->withHeader('Content-Type', 'application/json')->withStatus(400);
-        }
-
-        try{
-            $loan = new Loan($data);
-            FileService::saveLoan($loan);
-            $response->getBody()->write(json_encode(['message' => 'Aplikasi Loan telah disimpan']));
-            return $response->withHeader('Content-Type', 'application/json')->withStatus(200);
-        }catch (ValidationException $e) {
-            $response->getBody()->write(json_encode(['message' => $e->getMessage()]));
             return $response->withHeader('Content-Type', 'application/json')->withStatus(422);
         }
+
+        $loan = new Loan($data);
+        FileService::saveLoan($loan);
+        $response->getBody()->write(json_encode(['message' => 'Aplikasi Loan telah disimpan']));
+        return $response->withHeader('Content-Type', 'application/json')->withStatus(200);
+
+        // try{
+            
+        // }catch (ValidationException $e) {
+        //     $response->getBody()->write(json_encode(['message' => $e->getMessage()]));
+        //     return $response->withHeader('Content-Type', 'application/json')->withStatus(422);
+        // }
     }
 }
