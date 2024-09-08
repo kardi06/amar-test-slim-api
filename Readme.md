@@ -61,13 +61,13 @@ URL: http://localhost:8080/api/loan
 
 You need to send the following parameters in the body of the request (as JSON or form-data):
 ```bash
-name (String): Full name, must include at least a first and last name.
-ktp (String): KTP ID, must be exactly 16 digits long.
-loan_amount (Integer): Amount requested, must be between 1000 and 10000.
-loan_period (Integer): Duration of the loan in months.
-loan_purpose (String): Purpose of the loan (e.g., vacation, renovation, electronics, wedding, rent, car, investment).
-date_of_birth (String): Date of birth in format DD-MM-YYYY.
-sex (String): Gender, either male or female.
+name : Full name, must include at least a first and last name.
+ktp : KTP ID, must be exactly 16 digits long.
+loan_amount : Amount requested, must be between 1000 and 10000.
+loan_period : Duration of the loan in months.
+loan_purpose : Purpose of the loan (e.g., vacation, renovation, electronics, wedding, rent, car, investment).
+date_of_birth : Date of birth in format DD-MM-YYYY.
+sex : Gender, either male or female.
 ```
 
 The response will include any validation errors or a success message.
