@@ -14,7 +14,7 @@ Clone the GitHub repository to your local machine:
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
-### 2. Install Dependencies
+#### 2. Install Dependencies
 
 ```bash
 composer install
